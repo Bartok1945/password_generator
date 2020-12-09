@@ -1,0 +1,11 @@
+When I click on "generate password" button
+I get a prompt asking for how many characters I'd like in my password
+Then I get a series of confirm messages about password contents:
+confirm uppercase letters
+confirm lowercase letters
+confirm numbers
+confirm special characters
+
+Then a password is generated from picking random characters based
+on the prompt and confirm messages
+
